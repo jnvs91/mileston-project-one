@@ -1,1 +1,1 @@
-# mileston-project-one
+# milestone-project-one
