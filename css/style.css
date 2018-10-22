@@ -21,7 +21,7 @@ body{
 
 .opaque-overlay {
     position: absolute;
-    top: 92px;
+    top: 91px;
     left: 0;
     height: 100%;
     width: 100%;
@@ -34,11 +34,11 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-   background: rgb(0,0,0);
-background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
-background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    background: rgb(0,0,0);
+        background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
+        background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046393557422969) 14%, rgba(0,0,0,0) 28%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
 
 /* LOGO *****************/
@@ -106,18 +106,60 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endCo
     margin-bottom: 35px;
 }
 
-.about-img {
-    height: 100%;
-    width: 100%;
+/* MUSIC SECTION SPOTIFY *****/
+
+#music {
+    padding-top: 110px;
 }
 
-.about-img img {
-    max-width: 100%;
-    border: solid 2px #fff;    
+.img-playlist-music {
+    width: 300px;
+    margin: 0 auto;
 }
+
+
+.text-playlist-music {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+
+.text-playlist-music a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+}
+
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
 
 /* Auxiliary Classes *****/
 
+.bg-white {
+    background-color: #fff;
+}
+
+.pd-top {
+    padding-top: 30px;
+}
+
 .mg-bottom {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }

@@ -9,6 +9,7 @@
   </head>
   <body>
     <header>
+        <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-navbar fixed-top">
             <div class="container">
             <a href="index.html" class="navbar-brand" id="logo">
@@ -21,7 +22,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Music</a></li>
+                    <li class="nav-item"><a href="#music" class="nav-link">Music</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Photos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
@@ -29,12 +30,13 @@
             </div>
             </div>
         </nav>
-        
+        <!-- Background header img -->
         <div class="bg-header">
             <div class="opaque-overlay">&nbsp;</div>
             <div class="gradient-overlay">&nbsp;</div>
         </div>
     </header>
+    <!-- ABOUT SECTION -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -48,7 +50,35 @@
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <div class="about-img">
-                        <img src="../images/vc-about.jpg" alt="Vintage Culture" />
+                        <img class="img-fluid img-thumbnail" src="../images/vc-about.jpg" alt="Vintage Culture" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MUSIC SECTION -->
+    <section id="music">
+        <div class="container-fluid bg-white">
+            <div class="container">
+                <div class="row pd-top">
+                    <div class="col-lg-5 mg-bottom">
+                        <div class="text-playlist-music">
+                            <p >Listen now my official playlist on <a href="https://open.spotify.com/playlist/37i9dQZF1DXcRQ5NBJKEDV" target="_blank">Spotify</a></p>
+                        </div>
+                        <div class="img-playlist-music">
+                            <img class="img-fluid" src="../images/vc-spotify.jpg" alt="Vintage Culture Spotify" />
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcRQ5NBJKEDV" width="100%" height="430" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:28uJnu5EsrGml2tBd7y8ts&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="text-video">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
